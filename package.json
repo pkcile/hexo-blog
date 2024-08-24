@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "node scripts/copy-well-known.js && hexo generate",
     "clean": "hexo clean",
     "server": "hexo server",
     "start": "hexo server",
