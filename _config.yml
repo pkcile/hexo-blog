@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://pkcile.gitee.io/
+url: http://blog.pkcile.cn/
 root: ""
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -101,6 +101,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+# theme: maupassan
 theme: maupassan
 archive_generator:
     per_page: 0
@@ -109,10 +110,10 @@ archive_generator:
     daily: false
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/pkcile/hexo-blog.git
-  branch: main
+# deploy:
+#   type: git
+#   repo: https://github.com/pkcile/hexo-blog.git
+#   branch: main
 
 node_sass:
   outputStyle: nested
